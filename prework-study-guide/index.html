@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -21,7 +22,12 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li> < link rel="stylesheet" href="./assets/style.css" >: links to the file style.css in the same directory</li>
+          <li> In the preceding statement, a < link > element creates the connection to the external file. </li>
+          <li> The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+          <li>The href attribute specifies the location (URL) of the external resource. The href attribute is using a relative path.</li>
         </ul>
       </section>
     
@@ -35,6 +41,20 @@
           <li>git pull origin main: pull the base branch into your feature branch </li>
           <li>git push origin feature/add-html: push up the changes in feature/add-html </li>
         </ul>
+        <h3>Push to Git</h3>
+        <ol>
+          <li>Navigate to branch from the command line</li>
+          <li>git add - A</li>
+          <li>git commit -m "add description"</li>
+          <li>git pull origin main</li>
+          <li>git push origin <i>specific/branch</i></li>
+          <li>In GitHub, go to repository click 'pull requests' > 'new pull request'</li>
+          <li>Make sure the base branch is main and comparison branch is <i>specific/branch</i></li>
+          <li>Click the 'create pull request' button</li>
+          <li>Merge the comparison branch into teh base branch by selecting the 'merge pull request' button</li>
+          <li>Update the local main branch via: git checkout main</li>
+          <li>Pull the remote main branch into the local main branch via: git pull origin main</li>
+        </ol>
       </section>
     
       <section class="card" id="javascript-section">
